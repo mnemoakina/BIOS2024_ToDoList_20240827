@@ -21,7 +21,7 @@ Some dev-dependencies (so, not for Production):
 - [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 
-And of course To-Do-List itself is open source with a [public-repository](https://github.com/mnemoakina/mytodolist.git) on GitHub.
+And of course To-Do-List itself is open source with a [public-repository](https://github.com/mnemoakina/BIOS2024_ToDoList_20240827.git) on GitHub.
 
 ## Installation
 
