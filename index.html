@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fullstack Course Project 2024-08-28</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="./src/main.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo+Play&family=Matemasie&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header> 
+    <div class="header__content" id='header__content'>       
+      <img src="./styles/img/listlogo.png" alt='logo del titulo' width="48px" height="48px">
+      <h1 class="shadows-into-light-regular">TO-DO LIST</h1>
+    </div> 
+  </header>
+  <main>
+    <div class="taskInput">
+      <form id="taskInputForm" class="taskInputForm">
+        <input type="text" id='taskInputTxt' class="taskInputTxt" placeholder="Task to be done">
+        <button type="submit" id="taskInputBtn" class="taskInputBtn">ADD</button>
+      </form>
+      <ul id="tasklist" class="tasklist"> 
+      </ul>
+    </div>
+    <div id="modal" class="modal">
+      <div class="modal-contenido">
+        <a href="#" class="close"></a>
+        <div class="modalMsg">
+          <h2 class="modalTitle" id="modalTitle"></h2>
+          <p class="modalText" id="modalText"></p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+      <p class="footer__cont">© 2024 M.Dipaulo | BIOS Full Stack Course</p>
+    </div>
+    <div class="ir-arriba">
+      <a href="#header__content">
+        <img src="./styles/img/up.png" alt="Button to come back to the start">
+      </a>      
+    </div>
+  </footer>
+  
+  
+</body>
+</html>
